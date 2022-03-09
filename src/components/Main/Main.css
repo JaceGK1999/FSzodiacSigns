@@ -1,8 +1,9 @@
 .zodiac-main {
   background-image: url('https://alchemy-react-zodiac.netlify.app/static/media/background.a66dac28.png');
   display: flex;
-  align-content: center;
-  justify-content: center;
+  flex-direction: column;
+  align-content: wrap;
+  justify-content: wrap;
 }
 .zodiac-render {
   display: flex;
