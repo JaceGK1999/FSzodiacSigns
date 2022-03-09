@@ -1,0 +1,27 @@
+@keyframes pulse2 {
+  0% {
+    background-color: var(--color6);
+  }
+  25% {
+    background-color: var(--color7);
+  }
+  50% {
+    background-color: var(--color8);
+  }
+  75% {
+    background-color: var(--color9);
+  }
+  100% {
+    background-color: var(--color10);
+  }
+}
+
+.footer {
+  --color6: rgba(37, 40, 61, 1);
+  --color7: rgba(143, 57, 133, 1);
+  --color8: rgba(166, 117, 161, 1);
+  --color9: rgba(206, 162, 172, 1);
+  --color10: rgba(239, 217, 206, 1);
+
+  animation: pulse2 25s infinite alternate;
+}
