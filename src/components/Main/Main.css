@@ -1,3 +1,19 @@
 .zodiac-main {
   background-image: url('https://alchemy-react-zodiac.netlify.app/static/media/background.a66dac28.png');
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.zodiac-render {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  width: 15%;
+  background-color: aquamarine;
 }
