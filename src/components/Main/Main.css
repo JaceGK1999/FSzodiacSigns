@@ -5,16 +5,4 @@
   align-content: wrap;
   justify-content: wrap;
 }
-.zodiac-render {
-  display: flex;
-  justify-self: center;
-  align-self: center;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  padding: 5px;
-  margin: 5px;
-  width: 15%;
-  background-color: aquamarine;
-}
+
